@@ -5,7 +5,8 @@
   "dependencies": {
     "opencv":"0.4.0",
     "ar-drone": "0.3.1",
-    "jsfeat" : "0.0.4"
+    "jsfeat" : "*",
+    "gm" : "1.14.2"
   },
   "repository": "https://github.com:dwhughes/ar-drone_opencv.git",
   "homepage": "https://github.com:dwhughes/ar-drone_opencv"
