@@ -1,10 +1,11 @@
 var gm = require('gm');
 
 exports.getSize = function(image,callback){
-	var height,width;
-	image.size(function(err,size){
+
+	return image.size(function(err,size){
 		height = size.height;
 		width = size.width;
-		callback(err,width,height);
+		console.log("In image size" + height + " " + width);
+		return height;	
 	});	
 }
